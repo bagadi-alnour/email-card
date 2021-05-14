@@ -4,11 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "start": "node server.js"
   },
   "author": "Bagadi Alnour",
   "license": "ISC",
