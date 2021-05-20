@@ -67,7 +67,7 @@ function App() {
                         </div>
                         <div className="form-floating mb-3">
                         </div>
-                        <div className="form-floating mb-3">
+                        <div className="form-floating mb-3 d-flex flex-nowrap" style={{maxWidth:"420px"}}>
                             <ReactTagInput
                                 className="form-control input-lg"
                                 tags={tags}
