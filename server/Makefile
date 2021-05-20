@@ -1,2 +1,2 @@
-build:
-	docker build -t api-server .
+start:
+	npm start

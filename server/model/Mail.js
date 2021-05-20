@@ -14,10 +14,9 @@ let MailSchema = new mongoose.Schema(
             lowercase: true
 
         },
-        receiver: {
-            type: String,
-            required: true,
-            lowercase: true
+        receivers: {
+            type: Array,
+            required: true
         },
         subject: {
             type: String,
